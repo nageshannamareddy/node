@@ -1,0 +1,34 @@
+{
+  "name": "mlcpusers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "empid": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "null"
+    },
+    "phonenumber": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "emailid": {
+      "type": "string",
+      "required": true,
+      "default": "null"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
